@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.rlsp.socialbooks</groupId>
+  <artifactId>socialbooksapi-client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  	<properties>
+		<java.version>12</java.version>
+	</properties>
+	
+	
+	
+	<dependencies>
+	
+		<!-- Contem as informacoes necessarias para consumir uma API -->
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-web</artifactId>
+		    <version>5.2.1.RELEASE</version>
+		</dependency>
+	
+	
+		<!-- Usado para ajudar na serizalizcao -->
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<dependency>
+	    	<groupId>com.fasterxml.jackson.core</groupId>
+	    	<artifactId>jackson-core</artifactId>	  
+	    	<version>2.9.8</version>  
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+		<dependency>
+		    <groupId>com.fasterxml.jackson.dataformat</groupId>
+		    <artifactId>jackson-dataformat-xml</artifactId>	
+		    <version>2.9.8</version> 
+		</dependency>
+
+	
+	</dependencies>
+	
+	
+	
+</project>
